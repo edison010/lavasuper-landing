@@ -1,104 +1,82 @@
 import {
   ArrowRight,
-  Bed,
-  BedDouble,
-  Blinds,
-  Grip,
-  WashingMachine,
+  Droplets,
+  Crown,
+  Briefcase
 } from "lucide-react";
 import { whatsappFor } from "../lib/constants";
 
-const services = [
+const collections = [
   {
-    icon: WashingMachine,
-    name: "Lavado, secado y doblado",
-    price: "$0.50",
-    unit: "por libra",
-    description: "Lavamos, secamos y doblamos tu ropa con detergentes premium.",
+    icon: Droplets,
+    name: "Perfumería de Nicho",
+    brands: "Creed, Parfums de Marly, Xerjoff...",
+    description: "Para los conocedores que buscan aromas únicos, complejos y de producción limitada.",
+    price: "Desde $180"
   },
   {
-    icon: BedDouble,
-    name: "Edredones",
-    price: "$5.00",
-    unit: "por pieza",
-    description: "Limpieza profunda que devuelve suavidad y frescura.",
+    icon: Crown,
+    name: "Diseñador Alta Gama",
+    brands: "Tom Ford, Dior Privée, Chanel...",
+    description: "Las líneas exclusivas de las casas de moda más prestigiosas del mundo.",
+    price: "Desde $120"
   },
   {
-    icon: Bed,
-    name: "Cobijas",
-    price: "$3.00",
-    unit: "por pieza",
-    description: "Cuidado especializado para todo tipo de fibra.",
-  },
-  {
-    icon: Blinds,
-    name: "Cortina visillo",
-    price: "$2.00",
-    unit: "por pieza",
-    description: "Tratamiento delicado que respeta caídas y colores.",
-  },
-  {
-    icon: Blinds,
-    name: "Cortina pesada",
-    price: "$4.00",
-    unit: "por pieza",
-    description: "Lavado profesional para telas gruesas y forradas.",
-  },
-  {
-    icon: Grip,
-    name: "Alfombras",
-    price: "$6.00",
-    unit: "por pieza",
-    description: "Extracción de polvo, manchas y ácaros. Como nuevas.",
+    icon: Briefcase,
+    name: "Decants & Travel Size",
+    brands: "Muestras extraídas del frasco original",
+    description: "Explora múltiples fragancias con atomizadores de viaje de 5ml y 10ml.",
+    price: "Desde $15"
   },
 ];
 
 export default function Services() {
   return (
-    <section id="servicios" className="bg-brand-50/50 py-20">
-      <div className="mx-auto max-w-6xl px-4">
-        <div className="mx-auto max-w-2xl text-center">
-          <span className="text-sm font-semibold uppercase tracking-wider text-brand-600">
-            Servicios
+    <section id="colecciones" className="bg-brand-50 py-24">
+      <div className="mx-auto max-w-7xl px-6">
+        <div className="mx-auto max-w-3xl text-center">
+          <span className="text-xs font-semibold tracking-widest text-gold-dark">
+            NUESTRO CATÁLOGO
           </span>
-          <h2 className="mt-2 text-3xl font-extrabold text-slate-900 md:text-4xl">
-            Servicios de Lavandería en Quito
+          <h2 className="mt-4 font-serif text-4xl font-bold text-luxury-dark md:text-5xl">
+            Colecciones Exclusivas
           </h2>
-          <p className="mt-4 text-slate-600">
-            Elige el servicio que necesitas. Entregas rápidas en 24 a 48 horas sin recargos por domicilio en el Norte de Quito.
+          <p className="mt-6 text-lg text-brand-700">
+            Maison Olfactive alberga una selección rigurosa de las casas perfumeras más respetadas. Cada frasco cuenta una historia.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((s) => (
+        <div className="mt-16 grid gap-8 md:grid-cols-3">
+          {collections.map((c) => (
             <div
-              key={s.name}
-              className="flex flex-col rounded-3xl border border-slate-100 bg-white p-8 shadow-sm transition hover:shadow-md"
+              key={c.name}
+              className="flex flex-col rounded border border-brand-100 bg-white p-10 shadow-sm transition hover:shadow-xl hover:border-gold/30"
             >
-              <div className="flex h-14 w-14 items-center justify-center rounded-full bg-brand-100/70 text-brand-700">
-                <s.icon className="h-6 w-6" strokeWidth={1.8} />
+              <div className="mb-8 flex h-16 w-16 items-center justify-center rounded-full bg-brand-50 text-gold-dark">
+                <c.icon className="h-8 w-8" strokeWidth={1.5} />
               </div>
 
-              <h3 className="mt-7 text-2xl font-bold text-slate-900">
-                {s.name}
+              <h3 className="font-serif text-2xl font-bold text-luxury-dark">
+                {c.name}
               </h3>
-              <p className="mt-3 flex-1 text-slate-600">{s.description}</p>
+              <p className="mt-2 text-xs font-medium tracking-wider text-brand-600 uppercase">
+                {c.brands}
+              </p>
+              
+              <p className="mt-4 flex-1 text-sm leading-relaxed text-brand-700">{c.description}</p>
 
-              <div className="mt-6 border-t border-slate-200 pt-6">
-                <div className="flex items-center justify-between gap-2">
-                  <p>
-                    <span className="text-3xl font-extrabold text-brand-700">
-                      {s.price}
-                    </span>{" "}
-                    <span className="text-slate-500">{s.unit}</span>
-                  </p>
+              <div className="mt-8 border-t border-brand-100 pt-8">
+                <div className="flex items-center justify-between">
+                  <span className="font-serif text-lg font-bold italic text-gold-dark">
+                    {c.price}
+                  </span>
                   <a
-                    href={whatsappFor(s.name)}
+                    href={whatsappFor(`Consulta por la colección: ${c.name}`)}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-1.5 font-bold text-brand-800 transition hover:gap-2.5 hover:text-brand-600"
+                    className="inline-flex items-center gap-2 text-sm font-semibold tracking-widest text-luxury-dark transition hover:text-gold-dark"
                   >
-                    Agendar <ArrowRight className="h-4 w-4" />
+                    VER CATÁLOGO <ArrowRight className="h-4 w-4" />
                   </a>
                 </div>
               </div>
