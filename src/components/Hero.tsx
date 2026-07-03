@@ -107,7 +107,7 @@ export default function Hero() {
             }}
           >
             <img
-              src="/local-maquinas.png"
+              src="/local-maquinas.webp"
               alt="Máquinas industriales Dexter en LavaSuper E&E"
               className="h-[420px] w-full object-cover transition-transform duration-700 hover:scale-105"
             />

@@ -18,7 +18,7 @@ export default function Header() {
       <div className="mx-auto flex h-20 max-w-6xl items-center justify-between px-4">
         <a href="#inicio" className="flex items-center">
           <img
-            src="/lavasuper-logo.png"
+            src="/lavasuper-logo.webp"
             alt="LavaSuper E&E"
             className="h-16 w-auto object-contain"
           />

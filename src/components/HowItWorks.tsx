@@ -60,7 +60,7 @@ export default function HowItWorks() {
           </div>
 
           <img
-            src="/atencion.jpg"
+            src="/atencion.webp"
             alt="Atención personalizada de LavaSuper"
             className="w-full rounded-3xl object-cover shadow-xl"
           />

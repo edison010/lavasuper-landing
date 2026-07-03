@@ -1,17 +1,17 @@
 export default function Gallery() {
   const photos = [
     {
-      src: "/local-maquinas.png",
+      src: "/local-maquinas.webp",
       alt: "Máquinas industriales Dexter de autoservicio",
       label: "Autoservicio",
     },
     {
-      src: "/local-fachada.png",
+      src: "/local-fachada.webp",
       alt: "Fachada del local LavaSuper E&E en La Florida",
       label: "Nuestro local",
     },
     {
-      src: "/local-interior.png",
+      src: "/local-interior.webp",
       alt: "Interior de LavaSuper con mostrador y servicios",
       label: "Interior",
     },

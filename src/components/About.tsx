@@ -31,7 +31,7 @@ export default function About() {
             style={{ clipPath: "polygon(0 0, 100% 0, 100% 92%, 0 100%)" }}
           >
             <img
-              src="/local-fachada.png"
+              src="/local-fachada.webp"
               alt="Fachada de la lavandería LavaSuper E&E - La Florida, Quito"
               className="h-[480px] w-full max-w-md object-cover transition-transform duration-700 hover:scale-105"
             />

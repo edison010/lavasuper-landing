@@ -13,7 +13,7 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2">
             <img
-              src="/lavasuper-logo.png"
+              src="/lavasuper-logo.webp"
               alt="LavaSuper E&E"
               className="h-10 w-10 rounded-full object-cover"
             />
