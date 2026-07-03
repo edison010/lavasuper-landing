@@ -6,6 +6,8 @@ import HowItWorks from "./components/HowItWorks";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import Testimonials from "./components/Testimonials";
+import CoverageZones from "./components/CoverageZones";
+import FAQ from "./components/FAQ";
 import Location from "./components/Location";
 import FinalCTA from "./components/FinalCTA";
 import Footer from "./components/Footer";
@@ -22,6 +24,8 @@ export default function App() {
         <Gallery />
         <About />
         <Testimonials />
+        <CoverageZones />
+        <FAQ />
         <Location />
         <FinalCTA />
       </main>
@@ -29,3 +33,4 @@ export default function App() {
     </>
   );
 }
+
