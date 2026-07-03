@@ -5,35 +5,31 @@ export default {
     extend: {
       colors: {
         brand: {
-          50: "#fbfaf9",
-          100: "#f5f3f0",
-          200: "#e8e1da",
-          300: "#d6c9be",
-          400: "#c0a897",
-          500: "#ae8d76",
-          600: "#9c765c",
-          700: "#825d48",
-          800: "#6a4e3e",
-          900: "#564134",
+          50: "#eef7ff",
+          100: "#d9edff",
+          200: "#bce0ff",
+          300: "#8ecdff",
+          400: "#59b0ff",
+          500: "#338fff",
+          600: "#1b6ff5",
+          700: "#1458e1",
+          800: "#1747b6",
+          900: "#193f8f",
         },
-        gold: {
-          light: "#FDFBF7",
-          DEFAULT: "#D4AF37",
-          dark: "#AA8C2C"
-        }
+        teal: {
+          light: "#e6fbf7",
+          DEFAULT: "#14b8a6",
+        },
       },
       fontFamily: {
         sans: [
           "Inter",
           "system-ui",
           "-apple-system",
+          "Segoe UI",
+          "Roboto",
           "sans-serif",
         ],
-        serif: [
-          "Cormorant Garamond",
-          "Georgia",
-          "serif",
-        ]
       },
     },
   },

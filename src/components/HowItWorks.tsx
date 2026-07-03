@@ -1,68 +1,68 @@
-import { Search, ShieldCheck, PackageOpen } from "lucide-react";
+import { CalendarCheck, Package, Truck } from "lucide-react";
 
 const steps = [
   {
-    icon: Search,
+    icon: CalendarCheck,
     number: "1",
-    title: "Asesoría Olfativa",
-    text: "Nuestros expertos analizan tus preferencias para encontrar la fragancia que se adapte a tu firma personal.",
+    title: "Agenda",
+    text: "Escríbenos por WhatsApp o llámanos. Coordinamos horario.",
   },
   {
-    icon: ShieldCheck,
+    icon: Truck,
     number: "2",
-    title: "Garantía de Origen",
-    text: "Seleccionamos y verificamos la pureza y autenticidad de cada frasco directamente desde las casas perfumeras.",
+    title: "Recogemos",
+    text: "Pasamos por tu ropa sin costo adicional.",
   },
   {
-    icon: PackageOpen,
+    icon: Package,
     number: "3",
-    title: "Unboxing de Lujo",
-    text: "Recibe tu perfume en un empaque cuidado hasta el último detalle, en cualquier ciudad del Ecuador.",
+    title: "Entregamos",
+    text: "Limpia, doblada y lista para usar en tu puerta.",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="garantia" className="bg-white py-24">
-      <div className="mx-auto max-w-7xl px-6">
-        <div className="mx-auto max-w-3xl text-center">
-          <span className="text-xs font-semibold tracking-widest text-gold-dark">
-            NUESTRO PROCESO
+    <section id="como-funciona" className="bg-white py-20">
+      <div className="mx-auto max-w-6xl px-4">
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="text-sm font-semibold uppercase tracking-wider text-brand-600">
+            Cómo funciona
           </span>
-          <h2 className="mt-4 font-serif text-4xl font-bold text-luxury-dark md:text-5xl">
-            La Experiencia Maison
+          <h2 className="mt-2 text-3xl font-extrabold text-slate-900 md:text-4xl">
+            Simplificamos tu vida en 3 pasos
           </h2>
-          <p className="mt-6 text-lg text-brand-700">
-            Comprar un perfume de lujo no es solo una transacción, es un viaje sensorial. Te acompañamos en cada paso para asegurar una experiencia impecable.
+          <p className="mt-4 text-slate-600">
+            Sin colas, sin cargar bultos. Nosotros nos encargamos de todo.
           </p>
         </div>
 
-        <div className="mt-16 grid items-center gap-16 md:grid-cols-2">
-          <div className="flex flex-col gap-10">
+        <div className="mt-12 grid items-center gap-12 md:grid-cols-2">
+          <div className="flex flex-col gap-8">
             {steps.map((s) => (
-              <div key={s.number} className="flex items-start gap-6">
-                <div className="relative shrink-0">
-                  <div className="rounded-full bg-luxury-dark p-5 text-gold">
-                    <s.icon className="h-6 w-6" strokeWidth={1.5} />
+              <div key={s.number} className="flex items-start gap-5">
+                <div className="relative">
+                  <div className="rounded-2xl bg-brand-600 p-4 text-white shadow-lg shadow-brand-600/25">
+                    <s.icon className="h-6 w-6" />
                   </div>
-                  <span className="absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full bg-gold text-xs font-bold text-white shadow-sm">
+                  <span className="absolute -right-2 -top-2 flex h-6 w-6 items-center justify-center rounded-full bg-teal text-xs font-bold text-white">
                     {s.number}
                   </span>
                 </div>
                 <div>
-                  <h3 className="font-serif text-2xl font-bold text-luxury-dark">
+                  <h3 className="text-xl font-bold text-slate-900">
                     {s.title}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-brand-700">{s.text}</p>
+                  <p className="mt-1 text-slate-600">{s.text}</p>
                 </div>
               </div>
             ))}
           </div>
 
           <img
-            src="https://images.unsplash.com/photo-1615486171448-4fdcbab343e0?q=80&w=800&auto=format&fit=crop"
-            alt="Empaque premium de perfume"
-            className="w-full rounded border border-brand-100 object-cover shadow-2xl"
+            src="/atencion.webp"
+            alt="Atención personalizada de LavaSuper"
+            className="w-full rounded-3xl object-cover shadow-xl"
           />
         </div>
       </div>
