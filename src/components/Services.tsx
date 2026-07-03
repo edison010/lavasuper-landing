@@ -11,7 +11,7 @@ import { whatsappFor } from "../lib/constants";
 const services = [
   {
     icon: WashingMachine,
-    name: "Lavado en seco y doblado",
+    name: "Lavado, secado y doblado",
     price: "$0.50",
     unit: "por libra",
     description: "Lavamos, secamos y doblamos tu ropa con detergentes premium.",
