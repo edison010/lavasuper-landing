@@ -4,11 +4,11 @@ import { ChevronDown } from "lucide-react";
 const faqs = [
   {
     q: "¿Hacen lavandería a domicilio en Quito Norte?",
-    a: "Sí. LavaSuper E&E ofrece servicio de lavandería a domicilio con retiro y entrega gratis en todo el norte de Quito: La Florida, La Concepción, El Condado, Cotocollao, Ofelia, Ponceano, Carcelén, El Bosque, Ponciano, Kennedy, Los Rosales y sectores aledaños.",
+    a: "Sí. LavaSuper E&E ofrece servicio de lavandería a domicilio en todo el norte de Quito: La Florida, La Concepción, El Condado, Cotocollao, Ofelia, Ponceano, Carcelén, El Bosque, Ponciano, Kennedy, Los Rosales y sectores aledaños. El domicilio tiene un valor mínimo de $2 en el sector cercano (hasta Cotocollao y La Y); en sectores más alejados es $2 de ida más $2 de vuelta.",
   },
   {
     q: "¿Cuánto cuesta el servicio de lavado?",
-    a: "El lavado al peso cuesta $0.50 por libra e incluye lavado, secado y doblado. Los edredones tienen un precio fijo de $5.00 por pieza, cobijas tipo vicuña $4.00, cortinas visillo $2.00, cortinas pesadas $4.00 y alfombras $8.00 por metro cuadrado. El retiro y la entrega a domicilio son completamente gratuitos.",
+    a: "El lavado al peso cuesta $0.50 por libra e incluye lavado, secado y doblado. Los edredones tienen un precio fijo de $5.00 por pieza, cobijas tipo vicuña $4.00, cortinas visillo $2.00, cortinas pesadas $4.00 y alfombras $8.00 por metro cuadrado. El retiro y entrega a domicilio tiene un valor mínimo de $2 en el sector cercano (hasta Cotocollao y La Y); en sectores más alejados es $2 de ida y $2 de vuelta.",
   },
   {
     q: "¿En cuánto tiempo entregan la ropa lavada?",
@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "¿También lavan edredones y cobijas?",
-    a: "Sí, lavamos edredones ($5.00/pieza), cobijas ($3.00/pieza), cortinas y alfombras con maquinaria industrial Dexter. También retiramos y entregamos estas prendas de gran tamaño a domicilio sin costo adicional.",
+    a: "Sí, lavamos edredones ($5.00/pieza), cobijas tipo vicuña ($4.00/pieza), cortinas y alfombras con maquinaria industrial Dexter. También retiramos y entregamos estas prendas de gran tamaño a domicilio con la misma tarifa: $2 mínimo en el sector cercano, o $2 de ida y $2 de vuelta más lejos.",
   },
   {
     q: "¿Cómo agendo el servicio?",

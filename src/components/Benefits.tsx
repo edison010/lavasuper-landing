@@ -10,8 +10,8 @@ import {
 const benefits = [
   {
     icon: Truck,
-    title: "Retiro gratis",
-    text: "En todo el norte de Quito.",
+    title: "Retiro y entrega",
+    text: "Coordinamos el domicilio en todo el norte de Quito.",
   },
   {
     icon: Tag,
@@ -20,8 +20,8 @@ const benefits = [
   },
   {
     icon: Home,
-    title: "Domicilio sin recargo",
-    text: "Retiro y entrega gratis en tu sector.",
+    title: "Domicilio desde $2",
+    text: "$2 mínimo cerca (hasta Cotocollao / La Y); $2 ida + $2 vuelta más lejos.",
   },
   {
     icon: Clock,

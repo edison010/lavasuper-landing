@@ -65,7 +65,9 @@ export default function Services() {
             Servicios de Lavandería en Quito
           </h2>
           <p className="mt-4 text-slate-600">
-            Elige el servicio que necesitas. Entregas rápidas en 24 a 48 horas sin recargos por domicilio en el Norte de Quito.
+            Elige el servicio que necesitas. Entregas rápidas en 24 a 48 horas.
+            Domicilio desde $2 en el sector cercano; $2 de ida y $2 de vuelta
+            más lejos.
           </p>
         </div>
 

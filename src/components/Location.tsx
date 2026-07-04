@@ -19,7 +19,9 @@ export default function Location() {
           </h2>
           <p className="mt-4 text-slate-600">
             Estamos en el norte de Quito, listos para atenderte. También
-            llevamos y traemos tu ropa sin costo adicional.
+            llevamos y traemos tu ropa a domicilio: $2 mínimo en el sector
+            cercano (hasta Cotocollao y La Y), $2 de ida y $2 de vuelta en
+            sectores más alejados.
           </p>
 
           <div className="mt-8 flex flex-col gap-5">

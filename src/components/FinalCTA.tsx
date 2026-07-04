@@ -9,7 +9,7 @@ export default function FinalCTA() {
           ¿Listo para descansar mientras nosotros lavamos?
         </h2>
         <p className="mt-4 text-lg text-brand-100">
-          Agenda tu servicio hoy y disfruta de retiro y entrega sin recargo.
+          Agenda tu servicio hoy. Domicilio desde $2 según tu sector.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a

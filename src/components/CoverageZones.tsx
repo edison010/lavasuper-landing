@@ -35,8 +35,10 @@ export default function CoverageZones() {
             Lavandería a domicilio en estos sectores de Quito Norte
           </h2>
           <p className="mt-4 text-slate-600">
-            Recogemos y entregamos tu ropa <strong>sin costo adicional</strong>{" "}
-            en los principales barrios del norte de Quito. Si no ves tu sector,
+            Recogemos y entregamos tu ropa en los principales barrios del
+            norte de Quito. Domicilio con <strong>valor mínimo de $2</strong>{" "}
+            en el sector cercano (hasta Cotocollao y La Y); en sectores más
+            alejados, $2 de ida y $2 de vuelta. Si no ves tu sector,
             escríbenos — es probable que también lleguemos.
           </p>
         </div>
@@ -57,10 +59,12 @@ export default function CoverageZones() {
         <p className="mx-auto mt-10 max-w-3xl text-center text-sm leading-relaxed text-slate-500">
           LavaSuper E&amp;E es la lavandería a domicilio de confianza en el
           norte de Quito. Ofrecemos lavado al peso, lavado en seco, limpieza de
-          edredones, cobijas, cortinas y alfombras con retiro y entrega gratis
-          en La Florida, La Concepción, Cotocollao, El Condado, Ofelia,
-          Ponceano, Carcelén, Kennedy, Ponciano, El Bosque y sectores cercanos.
-          Llámanos o escríbenos por WhatsApp para coordinar tu servicio hoy.
+          edredones, cobijas, cortinas y alfombras con retiro y entrega a
+          domicilio desde $2 en La Florida, La Concepción, Cotocollao y
+          sectores cercanos hasta La Y; $2 de ida y $2 de vuelta en sectores
+          más alejados como Ofelia, Ponceano, Carcelén, Kennedy, Ponciano, El
+          Bosque y alrededores. Llámanos o escríbenos por WhatsApp para
+          coordinar tu servicio hoy.
         </p>
       </div>
     </section>

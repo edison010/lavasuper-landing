@@ -11,7 +11,7 @@ const steps = [
     icon: Truck,
     number: "2",
     title: "Recogemos",
-    text: "Pasamos por tu ropa sin costo adicional.",
+    text: "Pasamos por tu ropa. Domicilio desde $2 según tu sector.",
   },
   {
     icon: Package,
