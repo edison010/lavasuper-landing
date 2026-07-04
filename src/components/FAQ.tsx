@@ -8,7 +8,7 @@ const faqs = [
   },
   {
     q: "¿Cuánto cuesta el servicio de lavado?",
-    a: "El lavado al peso cuesta $0.50 por libra e incluye lavado, secado y doblado. Los edredones tienen un precio fijo de $5.00 por pieza, cobijas $3.00, cortinas visillo $2.00, cortinas pesadas $4.00 y alfombras $6.00. El retiro y la entrega a domicilio son completamente gratuitos.",
+    a: "El lavado al peso cuesta $0.50 por libra e incluye lavado, secado y doblado. Los edredones tienen un precio fijo de $5.00 por pieza, cobijas tipo vicuña $4.00, cortinas visillo $2.00, cortinas pesadas $4.00 y alfombras $8.00 por metro cuadrado. El retiro y la entrega a domicilio son completamente gratuitos.",
   },
   {
     q: "¿En cuánto tiempo entregan la ropa lavada?",

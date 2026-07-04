@@ -25,10 +25,10 @@ const services = [
   },
   {
     icon: Bed,
-    name: "Cobijas",
-    price: "$3.00",
+    name: "Cobijas tipo vicuña",
+    price: "$4.00",
     unit: "por pieza",
-    description: "Cuidado especializado para todo tipo de fibra.",
+    description: "Cuidado especializado para cobijas de fibra tipo vicuña y materiales delicados.",
   },
   {
     icon: Blinds,
@@ -47,9 +47,9 @@ const services = [
   {
     icon: Grip,
     name: "Alfombras",
-    price: "$6.00",
-    unit: "por pieza",
-    description: "Extracción de polvo, manchas y ácaros. Como nuevas.",
+    price: "$8.00",
+    unit: "por m²",
+    description: "Extracción de polvo, manchas y ácaros. Precio por metro cuadrado. Como nuevas.",
   },
 ];
 
