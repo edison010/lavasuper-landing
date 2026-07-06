@@ -3,20 +3,20 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    q: "¿Hacen lavandería a domicilio en Quito Norte?",
-    a: "Sí. LavaSuper E&E ofrece servicio de lavandería a domicilio en todo el norte de Quito: La Florida, La Concepción, El Condado, Cotocollao, Ofelia, Ponceano, Carcelén, El Bosque, Ponciano, Kennedy, Los Rosales y sectores aledaños. El domicilio tiene un valor mínimo de $2 en el sector cercano (hasta Cotocollao y La Y); en sectores más alejados es $2 de ida más $2 de vuelta.",
+    q: "¿Hacen lavandería a domicilio en toda Quito?",
+    a: "Sí. LavaSuper E&E cubre el norte, centro y sur de Quito. El domicilio tiene un valor mínimo de $2 desde nuestro local en La Florida, y va aumentando según qué tan lejos esté tu sector. Escríbenos tu dirección por WhatsApp y te confirmamos el valor exacto antes de agendar.",
   },
   {
     q: "¿Cuánto cuesta el servicio de lavado?",
-    a: "El lavado al peso cuesta $0.50 por libra e incluye lavado, secado y doblado. Los edredones tienen un precio fijo de $5.00 por pieza, cobijas tipo vicuña $4.00, cortinas visillo $2.00, cortinas pesadas $4.00 y alfombras $8.00 por metro cuadrado. El retiro y entrega a domicilio tiene un valor mínimo de $2 en el sector cercano (hasta Cotocollao y La Y); en sectores más alejados es $2 de ida y $2 de vuelta.",
+    a: "Manejamos más de 60 servicios con precios desde $0.50 (lavado por libra o toalla mediana) hasta $25.00 (prendas delicadas en seco). Puedes buscar el precio exacto de tu prenda en la sección de Servicios (tiene buscador) o escribirnos por WhatsApp y te cotizamos al instante.",
   },
   {
     q: "¿En cuánto tiempo entregan la ropa lavada?",
     a: "El tiempo de entrega es de 24 a 48 horas. En la mayoría de los casos entregamos al día siguiente. Puedes coordinar el horario de retiro y entrega directamente por WhatsApp.",
   },
   {
-    q: "¿También lavan edredones y cobijas?",
-    a: "Sí, lavamos edredones ($5.00/pieza), cobijas tipo vicuña ($4.00/pieza), cortinas y alfombras con maquinaria industrial Dexter. También retiramos y entregamos estas prendas de gran tamaño a domicilio con la misma tarifa: $2 mínimo en el sector cercano, o $2 de ida y $2 de vuelta más lejos.",
+    q: "¿También lavan edredones, cobijas y alfombras?",
+    a: "Sí, tenemos precios específicos para edredones, cobijas (incluida tipo vicuña), alfombras, cortinas, almohadas ortopédicas y muchas otras prendas del hogar, todo con maquinaria industrial Dexter. Retiramos y entregamos estas prendas de gran tamaño a domicilio con la misma tarifa que el resto de servicios.",
   },
   {
     q: "¿Cómo agendo el servicio?",
@@ -24,7 +24,15 @@ const faqs = [
   },
   {
     q: "¿Tienen lavado en seco?",
-    a: "Sí, ofrecemos lavado en seco para prendas delicadas que no soportan el agua. Contáctanos por WhatsApp para consultar disponibilidad y precio según la prenda.",
+    a: "Sí, con más de 15 servicios de lavado en seco para ternos, vestidos, abrigos, chompas, togas de grado y hasta disfraces delicados — precios desde $2 (desmanchado) hasta $25 (disfraz delicado). Búscalo en la sección de Servicios o consúltanos por WhatsApp.",
+  },
+  {
+    q: "¿Qué formas de pago aceptan?",
+    a: "Efectivo, transferencia y tarjeta de crédito o débito (Visa, Mastercard, Diners Club y Discover). Los pagos con tarjeta tienen un pequeño recargo por comisión bancaria.",
+  },
+  {
+    q: "¿Tienen promociones?",
+    a: "Sí, tenemos combos como 3 edredones, 3 cobijas o 3 ternos de dos piezas por un precio especial. Revísalos en la categoría Promociones, la primera al abrir la sección de Servicios.",
   },
   {
     q: "¿En qué horario trabajan?",
@@ -32,7 +40,7 @@ const faqs = [
   },
   {
     q: "¿Dónde está ubicada la lavandería?",
-    a: "Estamos en Teniente Manuel Serrano N52-75 y Av. La Florida, sector La Florida, Quito Norte. También vamos a buscar tu ropa a domicilio en los barrios del norte de la ciudad.",
+    a: "Estamos en Teniente Manuel Serrano N52-75 y Av. La Florida, sector La Florida, Quito. Desde ahí cubrimos también el centro y el sur de la ciudad con retiro y entrega a domicilio.",
   },
 ];
 
@@ -73,7 +81,7 @@ export default function FAQ() {
           </h2>
           <p className="mt-4 text-slate-600">
             Resolvemos las consultas más comunes sobre nuestro servicio de
-            lavandería a domicilio en Quito Norte.
+            lavandería a domicilio en Quito.
           </p>
         </div>
 
